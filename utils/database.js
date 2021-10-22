@@ -20,9 +20,9 @@ if(isProduction) {
 }
 
 //connectionString: isProduction ? process.env.DATABASE_URL :`postgresql://postgres:0000@localhost:5432/crown_08`
-pool.query('SELECT * from category_08', (err, res) => {
-console.log(JSON.stringify(res.rows));
-pool.end();
-})
+//pool.query('SELECT * from category_08', (err, res) => {
+//console.log(JSON.stringify(res.rows));
+//pool.end();
+//})
 
   module.exports = pool;
